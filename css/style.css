@@ -2,6 +2,7 @@
 		margin: 0px;
  		background-image: url("bg1.jpg");
  		font-size: 0.8em;
+ 		text-align: justify;
 	}
 
 	nav {
@@ -102,10 +103,13 @@
 	a:hover {
 		color: black;
 	}
-	#center {
-		font-size: 2.5em;
-		
+	#welcome {
+		float: right;
 	}
+	#intro {
+		font-size: 1.3em;
+	}
+
 	.frontp{
 		width: 50%;
 		align-content: center;
