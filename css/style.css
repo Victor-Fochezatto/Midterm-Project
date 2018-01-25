@@ -20,7 +20,7 @@
         z-index: 1;
         /*height: 100px;*/
         height: 80px;
-        border-bottom: 1px solid grey;
+        border-bottom: 1px solid #1e7fc4;
 	}
 	nav li {
 		display: inline-block;
@@ -69,12 +69,11 @@
 	}
 	#content {
 		display: block;
-		border-radius: 1em;
+		border-radius: 0em;
 		/*height: 1000px;*/
 		height: auto;
-		width: 60%;
+		width: 90%;
 		/*margin-top: 15%;*/
-		margin-top: 10%;
 		margin-left: auto;
 		margin-right: auto;
 		/*overflow-y: scroll;*/
