@@ -1,28 +1,47 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Tips and Tricks</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        </head>
+<head>
+	<title></title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style type="text/css"> 
+      
+      @media screen and (max-width: 550px){
+
+      body {
+            min-width: 550px;}
+      }
+      </style>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
 <body>
-  <div class="navbar">
-  <div class="topnav" id="myTopnav">
-    <a href="index.html" class="active"><img id="logo" src="images/tips.jpg" width="120" height="50"></a>
-    <a href="arriving.html">Arriving in Vancouver</a>
-    <a href="places.html">Places to Eat</a>
-    <a href="things.html">Things to Do</a>
-    <a href="jobs.html">Finding Jobs</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-  </div>
-</div>
-<div id="arriving">
-     <h2>Arriving Vancouver</h2>
+	<nav>
+		<img id="logo" src="images/tips.jpg">
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="arriving.html">Arriving in Vancouver</a>
+			</li>
+			<li>
+				<a href="places.html">Places to eat</a>
+			</li>
+			<li>
+				<a href="things.html">Things to do</a>
+			</li>
+			<li>
+				<a href="jobs.html">Finding jobs</a>
+			</li>
+		</ul>
+	</nav>
+	<div id="content">
+		 <h2 >Arriving Vancouver</h2>
                   <p>When you get to Vancouver, lots of things must be done, but first, you need to get to the city! The video below shows how to use the transit system to get from YVR Airport to Downtown Vancovuer. It also provides other tips and tricks. Check it out:
                   </p>
                   <br><br>
-                  <iframe width="60%" height="315" src="https://www.youtube.com/embed/v9virl91tnE" allowfullscreen></iframe>
+                  <iframe width="60%" height="315" src="https://www.youtube.com/embed/v9virl91tnE" allowfullscreen style="margin-left: 25%"></iframe>
                   <h2 class="box-title">Opening a bank account</h2>
                   <p>For a student is very important to obtain a bank account and a credit card to start building up your credit history. After investigating in a couple of websites it seems that the best option for an student to not pay any fees and still be able to obtain a reliable and secure Bank is going to be</p>
                   <br>
@@ -47,21 +66,6 @@
                   <p>You can get your Compass Card from several places and once you obtain this you will have to know which payment method would be the best for you. You can visit this <a href="https://www.compasscard.ca/"> site.</a></p>
                   <p>Vancouver boasts an accessible and convenient public transit system, offering a great way for visitors to see the city. Most of Vancouver’s top attractions are reachable via transit. TransLink is Metro Vancouver’s regional transportation authority, and operates a public transit system made up of a network of buses, the SkyTrain, and the SeaBus, as well as the West Coast Express commuter train service.</p>
                   <p>The <a href="https://translink.ca">Translink website</a> is a great place to find current schedules, fare information, and trip planning tools to help you get around while in Vancouver. You can also call 604.953.3333 for customer service.</p>
-  </div>
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-
+	</div>
 </body>
-<footer>
-  <div class="footer"> copyright </div>
-</footer>
-        </html>
+</html>
