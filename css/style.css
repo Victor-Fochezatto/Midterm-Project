@@ -194,7 +194,6 @@
 		float: right;
 	}
 	#old {
-<<<<<<< HEAD
 		
 	}
 	#contenta {
@@ -240,14 +239,6 @@
 		margin: 0% 20%;
 		width: 60%;
 	}
-=======
-		margin: 1px;
-		padding: 1px;
-		border: 1px;
-		width: 7%;
-		position: relative;
-		float: right;
-	}
 
 	#contact {
 		display: inline-block;
@@ -257,4 +248,22 @@
 		background-color: #0D369f;
 		opacity: 0.95;
 	}
->>>>>>> 5b5e8e9800e76e3216eb5b732b0e6ba433e842e2
+	#welintro{
+		margin: 2% 30%;
+		width: 40%;
+	}
+	#vanweather{
+		margin: 2% 25%;
+		width: 50%; 
+	}
+	#diversity{
+		margin: 2% 30%;
+		width: 40%; 
+	}
+	#costl{
+		margin: 2% 30%;
+		width: 40%; 
+	}
+	#introp{
+		font-size: 1em;
+	}
