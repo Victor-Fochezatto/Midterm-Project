@@ -160,14 +160,39 @@
 		color: grey;
 	}
 	#tim {
-
+		margin: 1px;
+		padding: 1px;
+		border: 1px;
+		width: 18%;
+		position: relative;
+		float: right;
 	}
 	#star {
-
+		margin: 1px;
+		padding: 1px;
+		border: 1px;
+		width: 7%;
+		position: relative;
+		float: right;
+	}
+	#pplaces {
+		padding-left: 4%;
+		padding-right: 4%;
+		font-size: 13pt;
 	}
 	#five {
-
+		margin: 1px;
+		padding: 1px;
+		border: 1px;
+		width: 18%;
+		position: relative;
+		float: right;
 	}
 	#old {
-		
+		margin: 1px;
+		padding: 1px;
+		border: 1px;
+		width: 7%;
+		position: relative;
+		float: right;
 	}
