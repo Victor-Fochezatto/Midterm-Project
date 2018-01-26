@@ -181,5 +181,33 @@
 	  p{
 	    font-size: .9em;
 	  }
+	#arriving{
+		display: block;
+		border-radius: 4px;
+		height: auto;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 4%;
+		background-color: #D9EBFF;
+		opacity: 0.85;
+		font-family: 'Open Sans';
+		font-size:1.6em;
+		text-align: center;
+
+	}
+	#thingstodo{
+		display: block;
+		border-radius: 4px;
+		height: auto;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 4%;
+		background-color: #D9EBFF;
+		opacity: 0.85;
+		font-family: 'Open Sans';
+		font-size:1.6em;
+		text-align: center;
 	}
 	
