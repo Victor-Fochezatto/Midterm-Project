@@ -196,3 +196,12 @@
 		position: relative;
 		float: right;
 	}
+
+	#contact {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		height: 100px;
+		background-color: #0D369f;
+		opacity: 0.95;
+	}
