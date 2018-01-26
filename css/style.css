@@ -199,12 +199,17 @@
 		margin: 1px;
 		padding: 1px;
 		border: 1px;
-		width: 18%;
+		width: 12%;
 		position: relative;
 		float: right;
 	}
 	#old {
-		
+		margin: 1px;
+		padding: 1px;
+		border: 1px;
+		width: 7%;
+		position: relative;
+		float: right;
 	}
 	#contenta {
 		display: block;
