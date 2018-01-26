@@ -6,10 +6,7 @@
  		font-family: "Open Sans";
 	}
 	nav {
-		overflow: hidden; /*Hide Navbar when get smaller*/
-		/*background-color: #0D3147;*/
-		/*background-color: white;*/
-		/*background-color: rgb(8, 30, 90);*/
+
 		background-color: #002D48;
 		opacity: 0.95;
 		font-family: "Open Sans";
@@ -25,7 +22,7 @@
 	}
 	nav li {
 		display: inline-block;
-		padding-right: 50px;
+		padding-right: 5%;
 		/*padding-top: 15px;*/
 		padding-top: 1px;
 	}
@@ -37,8 +34,6 @@
 		display: block;
 		padding-top: 15px;
 		/*padding: 10px;*/
-		padding-left: 10px;
-		padding-right: 10px;
 		padding-bottom: 10px;
 		text-decoration: none;
 		color: #D9EBFF;
@@ -312,3 +307,38 @@
 	.fixlink {
 		color: black;
 	}
+	#collapse {
+		position: absolute;
+		top: -1000%;
+		width: 100%;
+		height: 300px;
+		background-color: black;
+		z-index: 2;
+	}
+	#menutweak {
+		position: absolute;
+		top: 20%; 
+		right: 10%; 
+		z-index: 2; 
+		width: 0px;
+		background-color: #D9EBFF;
+		opacity: 0.9;
+		border-radius: 1em;
+	}
+	/*#menutweak:hover + #collapse {
+		transition: transform 0.3s ease;
+		top: 0;
+	}
+	*/
+	@media  screen and (max-width: 1000px)
+{
+		#menutweak{
+		width: 50px;
+		height: 50px;
+		}
+		nav li {
+			top: -30%;
+			position: absolute;
+
+		}
+}
