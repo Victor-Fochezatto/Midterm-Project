@@ -63,21 +63,16 @@
 		background-color: #D9EBFF;
 		opacity: 0.85;
 		/*opacity: 0.95;*/
-		font-family: 'Verdana'
+		font-family: 'Open Sans';
+		font-size:1.6em;
 	}
 
 	#logo {
-		/*width: 200px;*/
-		width: 225px;
-		height: 60px;
-		/*position: absolute*/;
-		position: fixed;
-		/*padding-top: 2px;*/
-		/*padding-left: 10%;*/
-		padding: 0px;
-		border: 0px;
-		margin: 0px;
-		opacity: 1;
+		position: absolute;
+		left: 0;
+		margin-left: 10%;
+		margin-top:-1%;
+		width: 200px;
 	}
 
 	a:hover {
@@ -129,14 +124,17 @@
 	  }
 
 	  .topnav a {
-	    float: left;
+	    float: right;
 	    display: block;
 	    color: white;
 	    text-align: center;
-	    padding: 14px 16px;
+	    padding-top: 3%;
+	    padding-left: 20px;
 	    text-decoration: none;
 	    font-size: 17px;
 	    font-weight: bold;
+	    font-family: 'Open Sans';
+	    height: 70px;
 
 	  }
 
