@@ -57,6 +57,23 @@
 	h2 {
 		color: #696969;
 	}
+	#gr {
+		background-color: #E8E9EB;
+	}
+	#wt {
+		background-color: white;
+	}
+	#fixed {
+		font-size: 13pt;
+		background-color: white;
+	}
+	.table {
+		font-family: color: black;
+		text-align: center;
+		border-radius: 1px;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
 	#footer li {
 		display: inline-block;
 		width: 20%;
@@ -67,9 +84,12 @@
 		text-align: center;
 		margin: 0px;
 	}
+	#h2places {
+		text-align: center;
+	}
 	#content {
 		display: block;
-		border-radius: 0em;
+		border-radius: 4px;
 		/*height: 1000px;*/
 		height: auto;
 		width: 90%;
@@ -77,7 +97,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		/*overflow-y: scroll;*/
-		padding: 0px;
+		padding-top: 4%;
 		/*background-color: white;*/
 		background-color: #D9EBFF;
 		opacity: 0.85;
