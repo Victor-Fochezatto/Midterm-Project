@@ -136,7 +136,12 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-
+	#arrivingintro {
+		padding-top: 10%;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.frontp{
 		width: 50%;
 		align-content: center;
