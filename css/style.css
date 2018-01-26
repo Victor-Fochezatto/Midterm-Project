@@ -68,7 +68,7 @@
 	}
 
 	#logo {
-		position: absolute;
+		position: fixed;
 		left: 0;
 		margin-left: 10%;
 		margin-top:-1%;
