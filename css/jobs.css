@@ -1,0 +1,21 @@
+	#jobsimage {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	figcaption {
+		text-align: center;
+		background-color: #eff7ff;
+	}
+
+	#jobs {
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#jobstips {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
